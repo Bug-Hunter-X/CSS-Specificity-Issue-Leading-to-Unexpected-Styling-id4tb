@@ -1,0 +1,10 @@
+/* bugSolution.css */
+.container {
+  background-color: lightblue; /* This will be applied correctly now */
+}
+#myElement {
+  background-color: lightgreen; /* This selector is not interfering in an undesired way*/
+}
+.container #myElement {
+  /*Avoid adding unnecessary specificity, keep it simple*/
+}
